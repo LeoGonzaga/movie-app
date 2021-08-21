@@ -10,7 +10,7 @@ const Login: React.FC = () => {
     <Container>
       <Flex align="center" direction="column" justify="center">
         <TextInput color="#A8A8B3" />
-        <PrimaryButton text="uai" color="red" colorText="#fff" />
+        <PrimaryButton text="uai" color="#F99721" colorText="#fff" />
       </Flex>
     </Container>
   );

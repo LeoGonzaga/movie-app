@@ -11,6 +11,6 @@ export const Container = styled.input<Style>`
   color: ${(props) => props.color};
   &:focus {
     outline: none;
-    box-shadow: 0px 0px 2px red;
+    box-shadow: 0px 0px 2px #f99721;
   }
 `;
