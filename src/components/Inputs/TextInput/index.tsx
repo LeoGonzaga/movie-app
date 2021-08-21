@@ -2,11 +2,9 @@ import React from "react";
 
 import { Container } from "./styles";
 
-type TextInputType = {
-  color: string;
-};
-const TextInput: React.FC<TextInputType> = ({ color }) => {
-  return <Container color={color} />;
+
+const TextInput: React.FC = () => {
+  return <Container  placeholder="Buscar por filme" />;
 };
 
 export default TextInput;
